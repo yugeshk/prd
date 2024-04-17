@@ -51,10 +51,10 @@ If you do not pass a folder name, it will create a default folder called
 
 1. Run the `generate` command
 ```
-swent_prd generate <folder name>
+swent_prd generate  --team <TeamNumber> <folder name>
 ```
 
-This will create a file called `prd_document.pdf` in the root folder.
+This will create a file called `Team_<Number>_prd.pdf` in the root folder.
 
 >[!IMPORTANT]
 > When you begin filling out the various sections, you should remove the

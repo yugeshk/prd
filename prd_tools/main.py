@@ -31,10 +31,12 @@ def init(folder_name):
 
 @click.command()
 @click.argument('folder_name', required=False, default='sections')
-def generate(folder_name):
+@click.option('--team', required=True, type=click.IntRange(1, 25), help='Team Number (between 1 and 25)')
+def generate(folder_name, team):
     prd = PRD(folder_name)
     try:
-        prd.compile_to_pdf_from_folder(folder_name=folder_name)
+        pdf_name = f"Team_{team}_prd.pdf"
+        prd.compile_to_pdf_from_folder(folder_name=folder_name, output_file=pdf_name)
     except FileNotFoundError:
         print(f"Error: The folder '{folder_name}' does not exist. Please specify a valid folder name.")
 
