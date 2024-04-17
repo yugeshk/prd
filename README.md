@@ -1,7 +1,8 @@
 ## Description
 
 This repository contains scripts you will need to generate a PRD template.
-It also contains a sample PRD under `sample-pocketcampus` for your reference.
+It also contains a sample PRD under `samples/epfl-pocketcampus` for your reference.
+
 >[!NOTE]
 >As you may know, the EPFL Pocketcampus app was a creation of the first iteration
 >of this course. 
