@@ -55,3 +55,8 @@ swent_prd generate <folder name>
 ```
 
 This will create a file called `prd_document.pdf` in the root folder.
+
+>[!IMPORTANT]
+> When you begin filling out the various sections, you should remove the
+> comments added in italics. They are only there to help start your thinking
+> process.
