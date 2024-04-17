@@ -1,0 +1,147 @@
+sections:
+  - name: heading
+    index: 0
+    title: "MVP PRD: Project Name"
+    comments:
+      - "[2024.04.20]"
+  - name: overview
+    index: 1
+    title: "Overview"
+    comments: 
+      - "Maximum: 2 pages"
+      - "What is this project about?"
+      - "Describe succinctly and precisely its purpose."
+      - "Include a 3-sentence (max) elevator pitch."
+
+  - name: history
+    index: 2
+    title: "History"
+    comments: 
+      - "Maximum 1 page"
+      - "Describe the V1 POC as planned by Sprint10."
+      - "What did you learn?"
+      - "What is missing to bridge from PoC to MVP?"
+
+  - name: analysis
+    index: 3
+    title: "Analysis of the Situation"
+    comments: 
+      - "What are the competing products in the market today?"
+      - "What are the complementary products in the market today?"
+
+  - name: value_proposition
+    index: 4
+    title: "The Value Proposition"
+    comments: 
+      - "Describe the value proposition and argue that it is:"
+      - "1. Easy to communicate"
+      - "2. Defensible"
+      - "3. Relevant"
+
+  - name: mvp
+    index: 5
+    title: "The MVP"
+    subsections:
+      - title: "Personas and Scenarios"
+        comments: 
+          - "Who are the target personas for this product?"
+          - "Which is the key persona?"
+          - "High-level scenarios to adopt, use and share the product."
+      - title: "User Stories and Key Features"
+        comments: 
+          - "User stories about how various personas will use the product in context."
+          - "Identify and prioritise the key features required."
+          - "Justify the importance of each feature."
+      - title: "Success Criteria"
+        comments: 
+          - "How will you evaluate the success of the MVP?"
+          - "Metrics include user penetration, quality / satisfaction."
+          - "If applicable, progress in discussions with ecosystem partners / investors / customers."
+      - title: "Features Outside the Scope"
+        comments: 
+          - "The MVP must be viable and minimal."
+          - "Which features don’t belong in it."
+          - "How should these be eventually integrated and in what sequence."
+
+  - name: non_functional_requirements
+    index: 6
+    title: "Non-Functional Requirements"
+    subsections:
+      - title: "Security, privacy, and data retention policies"
+        comments: 
+          - "Which are the applicable laws and regulations?"
+          - "What are your internal policies?"
+          - "Which privacy features do you need from the phone?"
+      - title: "Adoptions, Scalability and Availability"
+        comments:
+          - "What kind of traffic patterns do you expect to see?"
+          - "Are there known periods of bursty traffic that the MVP must be designed to support?"
+
+  - name: functional_requirements
+    index: 7
+    title: "Functional Requirements"
+    comments: 
+      - "Max 3 pages."
+      - "List the key features of the MVP precisely."
+      - "Include appropriate architectural diagrams."
+      - "Describe key internal functionality."
+
+  - name: user_analytics
+    index: 8
+    title: "User Analytics and Acceptance"
+    comments: 
+      - "Goal: understand how users are using the app."
+      - "Which are the key metrics?"
+      - "What is the success criteria?"
+      - "What is the analysis plan (link to data collection)?"
+      - "Include relevant A/B testing ideas."
+
+  - name: design
+    index: 9
+    title: "Design and Implementation"
+    subsections:
+      - title: "Frontend"
+        comments: 
+          - "List the key libraries, languages, components used by the MVP."
+          - "If applicable, describe essential screens."
+      - title: "Backend"
+        comments: 
+          - "Decompose the MVP into functional blocks."
+      - title: "Data Model"
+        comments: 
+          - "What data are you collecting / managing?"
+          - "How is it organised?"
+          - "Where is it stored?"
+          - "How is it shared/copied/cached?"
+      - title: "Security Considerations"
+      - title: "Infrastructure and Deployment"
+        comments: 
+          - "How is the application developed, tested and deployed?"
+          - "Any special infrastructure requirements."
+      - title: "Test Plan"
+        comments: 
+          - "How is the application developed, tested and deployed?"
+          - "Any special infrastructure requirements."
+
+  - name: timeline
+    index: 10
+    title: "Timeline/Resource Planning"
+    comments: 
+      - "What’s the overall schedule you’re working towards?"
+      - "What resources are required?"
+      - "What are the intermediate milestones?"
+      - "List identified sprints"
+
+  - name: monetization
+    index: 11
+    title: "Business Model"
+    comments: 
+      - "Expected operating Costs"
+      - "Revenue Streams"
+
+  - name: appendix
+    index: 12
+    title: "Appendix"
+    comments: 
+      - "This section is optional."
+      - "Can include mockups, sequence diagrams, etc."
