@@ -4,7 +4,7 @@ This repository contains scripts you will need to generate a PRD template.
 It also contains a sample PRD under `samples/epfl-pocketcampus` for your reference.
 
 >[!NOTE]
->As you may know, the EPFL Pocketcampus app was a creation of the first iteration
+>As you may know, the EPFL Pocketcampus app was developed in the first iteration
 >of this course. 
 
 ## Setup
@@ -16,7 +16,7 @@ python3 --version
 
 2. Fork this repo into your organization and clone it 
 ```
-git clone git@github.com/<your-org-name>/mvp-prd.git
+git clone git@github.com:<your-org-name>/mvp-prd.git
 cd mvp-prd
 ```
 
@@ -28,11 +28,12 @@ python3 -m virtualenv venv
 
 4. Activate the Virtual Environment
 ```
-pip install -r requirements.txt
+source venv/bin/activate
 ```
 
 5. Install the `prd_tools` python app
 ```
+pip install -r requirements.txt
 pip install -e .
 ```
 
