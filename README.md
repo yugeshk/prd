@@ -24,6 +24,10 @@ To convert the `markdown` files in this template to a `pdf` you need the
 `pandoc` file format convertor installed locally. Instructions to install the
 `pandoc` package are available [here](https://pandoc.org/installing.html).
 
+3. `MiKTeX`
+
+You will need a latex compiler to use `pandoc`. You can download that [here](https://miktex.org/download).
+
 ## Setup
 
 1. Ensure you have python3 on your local machine. 
