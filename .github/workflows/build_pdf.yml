@@ -37,7 +37,7 @@ jobs:
 
       - name: Generate PDF
         run: |
-          swent_prd generate --team 21 <folder name>
+          swent_prd generate --team 21 template
 
       - name: Upload PDF as artifact
         uses: actions/upload-artifact@v3
