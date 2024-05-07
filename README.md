@@ -37,6 +37,8 @@ pip install -r requirements.txt
 pip install -e .
 ```
 
+Once you are done using the virtualenv, you can exit it by typing `deactivate`.
+
 ## Usage
 
 ### Creating a PRD Template
