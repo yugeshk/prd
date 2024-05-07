@@ -8,7 +8,7 @@ It also contains a sample PRD under `samples/epfl-pocketcampus` for your referen
 >of this course. 
 
 > [!WARNING]
-> If you face issues in getting the PRD setup to work, you can also copy this google doc [template](https://docs.google.com/document/d/1Ow0d1C7g_oLMRQQAzc6ivBJLO2s9G5BXmbU7otUmMdY/edit?usp=sharing) and use it to submit the PRD for M3. 
+> If you face issues in getting the PRD setup to work, you can also copy this google doc [template](https://docs.google.com/document/d/1Ow0d1C7g_oLMRQQAzc6ivBJLO2s9G5BXmbU7otUmMdY/edit?usp=sharing) and use it to export a PDF and submit the PRD for M3. 
 
 ## Requirements 
 
