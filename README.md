@@ -16,7 +16,7 @@ python3 --version
 
 2. Fork this repo into your organization and clone it 
 ```
-git clone git@github.com:<your-org-name>/mvp-prd.git
+git clone git@github.com:<your-org-name>/prd.git
 cd mvp-prd
 ```
 
