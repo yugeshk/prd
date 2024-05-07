@@ -75,9 +75,6 @@ pip install -e .
 
 Once you are done using the virtualenv, you can exit it by typing `deactivate`.
 
-> [!NOTE]
-For Windows, you can also find the instructions to setup a virtualenv [here](https://www.infoworld.com/article/3239675/virtualenv-and-venv-python-virtual-environments-explained.html).
-
 ## Usage
 
 ### Creating a PRD Template
