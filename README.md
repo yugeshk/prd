@@ -28,7 +28,7 @@ To convert the `markdown` files in this template to a `pdf` you need the
 
 You will need a latex compiler to use `pandoc`. You can download that [here](https://miktex.org/download).
 
-## Setup for Linux / OSX
+## Setup
 
 1. Ensure you have python3 on your local machine. 
 ```
@@ -48,38 +48,14 @@ python3 -m virtualenv venv
 ```
 
 4. Activate the Virtual Environment
+
+#### For Linux/OSX
+
 ```
 source venv/bin/activate
 ```
 
-5. Install the `prd_tools` python app
-```
-pip install -r requirements.txt
-pip install -e .
-```
-
-Once you are done using the virtualenv, you can exit it by typing `deactivate`.
-
-# Setup for Windows
-
-1. Ensure you have python3 on your local machine. 
-```
-python3 --version
-```
-
-2. Fork this repo into your organization and clone it 
-```
-git clone git@github.com:<your-org-name>/prd.git
-cd prd
-```
-
-3. Create a Virtual Enviornment
-```
-pip3 install virtualenv
-python3 -m virtualenv venv
-```
-
-4. Activate the Virtual Environment - 
+#### For Windows
 
 If you are using command prompt, you need to run - 
 ```
